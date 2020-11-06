@@ -21,3 +21,9 @@ print(a,b)
 var x = [1,2,3,4,5,6]
 
 print(x)
+
+var y = x[Int.random(in: 0...5)]
+print(y)
+
+var z = x.randomElement()
+print(z)
