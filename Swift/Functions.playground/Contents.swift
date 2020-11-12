@@ -1,3 +1,5 @@
+// Functions
+
 func greetings() {print("Hello")}
 
 greetings()
@@ -7,3 +9,11 @@ func tilte(resource: String) {
 }
 
 tilte(resource: "world!")
+
+// Control Flow
+
+var x = 0
+
+if x < 2 {print(x)}
+else{print("False")}
+
