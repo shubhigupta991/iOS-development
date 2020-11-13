@@ -9,14 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let softTime = 5
-    let mediumTime = 8
-    let hardTime = 12
+    let eggTimes = ["Soft": 5, "Medium": 8, "Hard" : 12]
 
     
     @IBAction func hardnessSelected(_ sender: UIButton) {
         
-        let hardness = sender.currentTitle
+        let hardness = sender.currentTitle!
+        
+        let result = eggTimes[hardness]!
+        
+        print(result)
+        var timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(UIMenuController.update), userInfo: nil, repeats: true)
         
         /*if hardness == "Soft" {
             print(softTime)
