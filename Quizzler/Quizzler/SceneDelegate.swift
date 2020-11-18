@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Quizzler
 //
-//  Created by Shubhangi Gupta on 16/11/20.
+//  Created by Shubhangi Gupta on 18/11/20.
 //
 
 import UIKit
