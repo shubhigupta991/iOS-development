@@ -73,6 +73,16 @@ player1username = "benIsGreat"
 
 print(player1username!)           //unwrapping optionals
 
+// 2D Arrays
+
+let quiz = [
+    ["Four + Two is equal to Six.", "True"],
+    ["Five - Three is greater than One.","True"],
+    ["Three + Eight is less than Ten.","False"]
+]
+
+print(quiz[1][0])
+
 // Structures
 
 struct Town{
