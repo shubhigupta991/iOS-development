@@ -41,6 +41,18 @@ func loveCalculator2(){
 loveCalculator2()
 loveCalculator()
 
+func greeting(name: String) -> Bool{
+    if name == "Shubhi"{
+        return true
+    }
+    else{
+        return false
+    }
+}
+
+var doorShouudOpen = greeting(name: "Shubhi")
+print(doorShouudOpen)
+
 // Dictionaries
 
 var phoneBook: [String: Int] = ["Clan": 7648950129, "Andrie": 2456976312, "Noha": 4563728192]
