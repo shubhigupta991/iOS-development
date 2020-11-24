@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F9291A8256D9C8800688DE3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9291A7256D9C8800688DE3 /* SecondViewController.swift */; };
 		0FCEA83D25692A5500E3B93A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEA83C25692A5500E3B93A /* AppDelegate.swift */; };
 		0FCEA83F25692A5500E3B93A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEA83E25692A5500E3B93A /* SceneDelegate.swift */; };
 		0FCEA84125692A5500E3B93A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEA84025692A5500E3B93A /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F9291A7256D9C8800688DE3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0FCEA83925692A5500E3B93A /* BMI-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCEA83C25692A5500E3B93A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FCEA83E25692A5500E3B93A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				0FCEA84025692A5500E3B93A /* ViewController.swift */,
+				0F9291A7256D9C8800688DE3 /* SecondViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F9291A8256D9C8800688DE3 /* SecondViewController.swift in Sources */,
 				0FCEA84125692A5500E3B93A /* ViewController.swift in Sources */,
 				0FCEA83D25692A5500E3B93A /* AppDelegate.swift in Sources */,
 				0FCEA83F25692A5500E3B93A /* SceneDelegate.swift in Sources */,
