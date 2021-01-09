@@ -56,3 +56,12 @@ struct WeatherManager {
     }
 
 }
+
+extension WeatherManager {
+    func fetchWeather(lattitude: Double, longitude: Double) {
+        
+        let urlString = "\(weatherURL)&lat=\(lattitude)&lon=\(longitude)"
+        performRequest(with: urlString)
+    }
+}
+
