@@ -46,9 +46,9 @@
 		0F4262F725AB794F004125DB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0F4262F425AB793A004125DB /* WelcomeViewController.swift */,
 				0F4262FC25AB7987004125DB /* RegisterViewController.swift */,
 				0F4262F925AB796D004125DB /* LoginViewController.swift */,
-				0F4262F425AB793A004125DB /* WelcomeViewController.swift */,
 				0F84EE5E25AB771C0085DCE2 /* ChatViewController.swift */,
 			);
 			path = Controllers;
