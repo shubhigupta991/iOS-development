@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F2F439E25B6049E006FAA69 /* CLTypingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2F439D25B6049E006FAA69 /* CLTypingLabel.swift */; };
 		0F4262F525AB793B004125DB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4262F425AB793A004125DB /* WelcomeViewController.swift */; };
 		0F4262FA25AB796D004125DB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4262F925AB796D004125DB /* LoginViewController.swift */; };
 		0F4262FD25AB7987004125DB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4262FC25AB7987004125DB /* RegisterViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F2F439D25B6049E006FAA69 /* CLTypingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLTypingLabel.swift; sourceTree = "<group>"; };
 		0F4262F425AB793A004125DB /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		0F4262F925AB796D004125DB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0F4262FC25AB7987004125DB /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		0F42630025AB799D004125DB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0F2F439D25B6049E006FAA69 /* CLTypingLabel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				0F84EE5F25AB771C0085DCE2 /* ChatViewController.swift in Sources */,
 				0F4262F525AB793B004125DB /* WelcomeViewController.swift in Sources */,
 				0F84EE5B25AB771C0085DCE2 /* AppDelegate.swift in Sources */,
+				0F2F439E25B6049E006FAA69 /* CLTypingLabel.swift in Sources */,
 				0F4262FD25AB7987004125DB /* RegisterViewController.swift in Sources */,
 				0F4262FA25AB796D004125DB /* LoginViewController.swift in Sources */,
 				0F84EE5D25AB771C0085DCE2 /* SceneDelegate.swift in Sources */,
