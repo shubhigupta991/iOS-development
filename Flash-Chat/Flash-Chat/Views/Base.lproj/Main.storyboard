@@ -152,6 +152,13 @@
                                     <constraint firstAttribute="trailing" secondItem="jY9-l3-E1g" secondAttribute="trailing" id="y40-C4-FjS"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="h63-US-UQ5">
+                                <rect key="frame" x="157" y="384" width="111" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="stz-qy-NwU"/>
                         <color key="backgroundColor" name="BrandLightBlue"/>
@@ -167,6 +174,7 @@
                     <navigationItem key="navigationItem" id="fKr-3E-cJg"/>
                     <connections>
                         <outlet property="emailTextfield" destination="u72-XV-6FN" id="Nfc-8N-TNr"/>
+                        <outlet property="errorLabel" destination="h63-US-UQ5" id="leG-zI-qWF"/>
                         <outlet property="passwordTextfield" destination="hLb-P9-NkF" id="uaM-fo-m8M"/>
                         <segue destination="lwd-AH-u8E" kind="show" identifier="RegisterToChat" id="WWx-8O-zgR"/>
                     </connections>
