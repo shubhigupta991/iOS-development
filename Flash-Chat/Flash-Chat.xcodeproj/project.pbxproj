@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0080C425BB218E00240B56 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0080C325BB218E00240B56 /* Constants.swift */; };
 		0F2F43A425B60FDA006FAA69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F2F43A325B60FDA006FAA69 /* GoogleService-Info.plist */; };
 		0F4262F525AB793B004125DB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4262F425AB793A004125DB /* WelcomeViewController.swift */; };
 		0F4262FA25AB796D004125DB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4262F925AB796D004125DB /* LoginViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F0080C325BB218E00240B56 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0F2F43A325B60FDA006FAA69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0F4262F425AB793A004125DB /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		0F4262F925AB796D004125DB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				0F84EE6525AB771D0085DCE2 /* LaunchScreen.storyboard */,
 				0F84EE6825AB771D0085DCE2 /* Info.plist */,
 				0F2F43A325B60FDA006FAA69 /* GoogleService-Info.plist */,
+				0F0080C325BB218E00240B56 /* Constants.swift */,
 			);
 			path = "Flash-Chat";
 			sourceTree = "<group>";
@@ -124,7 +127,6 @@
 				39FB2FF5D995AE964DD75506 /* Pods-Flash-Chat.debug.xcconfig */,
 				ECEF1596A7FCEF5F4253174A /* Pods-Flash-Chat.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -247,6 +249,7 @@
 				0F4262F525AB793B004125DB /* WelcomeViewController.swift in Sources */,
 				0F84EE5B25AB771C0085DCE2 /* AppDelegate.swift in Sources */,
 				0F4262FD25AB7987004125DB /* RegisterViewController.swift in Sources */,
+				0F0080C425BB218E00240B56 /* Constants.swift in Sources */,
 				0F4262FA25AB796D004125DB /* LoginViewController.swift in Sources */,
 				0F84EE5D25AB771C0085DCE2 /* SceneDelegate.swift in Sources */,
 			);
