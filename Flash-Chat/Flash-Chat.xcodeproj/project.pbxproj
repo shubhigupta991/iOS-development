@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0F0080C425BB218E00240B56 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0080C325BB218E00240B56 /* Constants.swift */; };
+		0F0080C725BB248500240B56 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0080C625BB248500240B56 /* Message.swift */; };
+		0F0080D125BC985E00240B56 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0080CF25BC985E00240B56 /* MessageCell.swift */; };
+		0F0080D225BC985E00240B56 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F0080D025BC985E00240B56 /* MessageCell.xib */; };
 		0F2F43A425B60FDA006FAA69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F2F43A325B60FDA006FAA69 /* GoogleService-Info.plist */; };
 		0F4262F525AB793B004125DB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4262F425AB793A004125DB /* WelcomeViewController.swift */; };
 		0F4262FA25AB796D004125DB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4262F925AB796D004125DB /* LoginViewController.swift */; };
@@ -23,6 +26,9 @@
 
 /* Begin PBXFileReference section */
 		0F0080C325BB218E00240B56 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0F0080C625BB248500240B56 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		0F0080CF25BC985E00240B56 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		0F0080D025BC985E00240B56 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		0F2F43A325B60FDA006FAA69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0F4262F425AB793A004125DB /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		0F4262F925AB796D004125DB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				0F84EE6025AB771C0085DCE2 /* Main.storyboard */,
+				0F0080CF25BC985E00240B56 /* MessageCell.swift */,
+				0F0080D025BC985E00240B56 /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -74,6 +82,7 @@
 		0F42630025AB799D004125DB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0F0080C625BB248500240B56 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -189,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0080D225BC985E00240B56 /* MessageCell.xib in Resources */,
 				0F84EE6725AB771D0085DCE2 /* LaunchScreen.storyboard in Resources */,
 				0F2F43A425B60FDA006FAA69 /* GoogleService-Info.plist in Resources */,
 				0F84EE6425AB771D0085DCE2 /* Assets.xcassets in Resources */,
@@ -250,8 +260,10 @@
 				0F84EE5B25AB771C0085DCE2 /* AppDelegate.swift in Sources */,
 				0F4262FD25AB7987004125DB /* RegisterViewController.swift in Sources */,
 				0F0080C425BB218E00240B56 /* Constants.swift in Sources */,
+				0F0080C725BB248500240B56 /* Message.swift in Sources */,
 				0F4262FA25AB796D004125DB /* LoginViewController.swift in Sources */,
 				0F84EE5D25AB771C0085DCE2 /* SceneDelegate.swift in Sources */,
+				0F0080D125BC985E00240B56 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
