@@ -46,12 +46,16 @@ class ChatViewController: UIViewController {
                         if let messageSender = data[K.FStore.senderField] as? String, let messageBody = data[K.FStore.bodyField] as? String {
                             let newMessage = Message(sender: messageSender, body: messageBody)
                             self.messages.append(newMessage)
+                            
                         }
                         
                     }
                 }
+                
                 DispatchQueue.main.async {
                     self.tableView.reloadData()
+                    let indexPath = IndexPath(row: self.messages.count - 1, section: 0)
+                    self.tableView.scrollToRow(at: indexPath, at: .top, animated: true)
                 }
             }
         }
@@ -73,6 +77,8 @@ class ChatViewController: UIViewController {
                 }
             }
         }
+        
+        messageTextfield.text = ""
     }
     
     @IBAction func logOutPressed(_ sender: UIBarButtonItem) {
@@ -98,7 +104,7 @@ extension ChatViewController: UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: K.cellIdentifier, for: indexPath) as! MessageCell
         cell.label.text = message.body
-        return cell
+       
         
         // This is message from current user
         if message.sender == Auth.auth().currentUser?.email {
@@ -115,6 +121,8 @@ extension ChatViewController: UITableViewDataSource {
             cell.messageBubble.backgroundColor = UIColor(named: K.BrandColors.purple)
             cell.label.textColor = UIColor(named: K.BrandColors.lightPurple)
         }
+        
+        return cell
     }
     
 }
